@@ -1,0 +1,6 @@
+{
+  "name": "Campus Compass AI",
+  "description": "Learn. Collaborate. Skill-Swap. Get Career Ready. An AI-powered college student success and peer learning platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

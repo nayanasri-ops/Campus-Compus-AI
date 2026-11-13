@@ -36,7 +36,7 @@ const app = express();
 // Cloud Run injects PORT=8080 into containers by default, but in this multi-container setup
 // Nginx listens on port 8080 and reverse-proxies to http://localhost:3000.
 // Therefore, the Node application must always listen on port 3000.
-const PORT = 3000;
+const PORT = Number(process.env.PORT)|| 3000;
 
 app.use(express.json({ limit: '10mb' }));
 
